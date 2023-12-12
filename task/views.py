@@ -1,5 +1,5 @@
 from django.contrib.auth import get_user_model
-from rest_framework import viewsets, permissions
+from rest_framework import permissions, viewsets
 
 from task.models import Task
 
